@@ -3,6 +3,7 @@
    margin: 0;
    padding: 0;
    font-family: Arial, Helvetica, sans-serif;
+   color: #000000;
 }
 .heady {
     display: flex;
@@ -38,6 +39,11 @@ body {
     box-shadow: 0.5vw 0.5vw #ff8b8b;
     border-radius: 1vw;
     font-size: 1.2vw;
+    transition-duration: 0.3s;
+}
+.bio p:hover {
+    box-shadow: 0.5vw 1.5vw #ff8b8b;
+    transform: translate(0, -0.5vw);
 }
 .bio {
     width: 100vw;
@@ -64,12 +70,21 @@ body {
     padding: 0.4vw;
     box-shadow: 0.5vw 0.5vw #eee87d;
     border-radius: 1vw;
+    transition-duration: 0.3s;
+}
+.projects .buttons .proj-button:hover {
+    transform: translate(-0.5vw, 0);
+    box-shadow: 1.5vw 0.5vw #eee87d;
 }
 .projects .buttons .proj-button p {
     font-size: 1.2vw;
 }
 .projects .buttons .proj-button h4 {
     font-size: 1.3vw;
+    transition-duration: 0.3s;
+}
+.projects .buttons .proj-button:hover h4 {
+    text-decoration: underline;
 }
 .projects {
     width: fit-content;
@@ -78,12 +93,17 @@ body {
 .projects .buttons {
     display: flex;
     justify-content: center;
-    gap: 3vw;
+    gap: 5vw;
 }
 .fork-button {
     margin: 0;
     width: 10vw;
     height: 10vw;
+    transition-duration: 0.3s;
+}
+.fork-button:hover {
+    width: 12vw;
+    height: 12vw;
 }
 .fork-button-link {
     padding: 0;
