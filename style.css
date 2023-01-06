@@ -1,10 +1,11 @@
 * {
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   font-family: Arial, Helvetica, sans-serif;
-   color: #000000;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
 }
+
 .heady {
     display: flex;
     background-color: #000077;
@@ -14,97 +15,148 @@
     gap: 1.8vw;
     padding-left: 1.3vw;
 }
+
 .heady a {
     color: #ffffff;
     text-decoration: underline;
     font-size: 1.4vw;
 }
+
 .bio h1 {
     margin: auto;
     font-size: 3.7vw;
     text-align: center;
     color: #ffffff;
-    margin: 1vw;
+    margin: 1vw auto;
     text-shadow: 0.4vw 0.4vw #000000;
 }
+
 body {
     background-color: #000093;
 }
+
 .bio p {
     background-color: #ffffff;
     max-width: 30vw;
     text-align: center;
     padding: 0.5vw;
-    margin: auto;
+    margin: 0 auto;
     box-shadow: 0.5vw 0.5vw #ff8b8b;
     border-radius: 1vw;
     font-size: 1.2vw;
     transition-duration: 0.3s;
 }
+
 .bio p:hover {
     box-shadow: 0.5vw 1.5vw #ff8b8b;
     transform: translate(0, -0.5vw);
 }
+
 .bio {
     width: 100vw;
     height: max-content;
     margin-bottom: 3vw;
 }
+
 .projects h2 {
-    margin: auto;
+    /* margin: 0 auto; */
     font-size: 2.5vw;
     text-align: center;
     color: #ffffff;
     margin: 1vw;
     text-shadow: 0.3vw 0.3vw #000000;
 }
+
 .projects a {
     text-decoration: none;
     color: #000000;
     width: fit-content;
 }
+
 .projects .buttons .proj-button {
     background-color: #ffffff;
     width: 13vw;
     text-align: center;
     padding: 0.4vw;
-    box-shadow: 0.5vw 0.5vw #eee87d;
+    box-shadow: 0.5vw 0.5vw #ece555;
     border-radius: 1vw;
     transition-duration: 0.3s;
 }
+
 .projects .buttons .proj-button:hover {
     transform: translate(-0.5vw, 0);
-    box-shadow: 1.5vw 0.5vw #eee87d;
+    box-shadow: 1.5vw 0.5vw #ece555;
 }
+
 .projects .buttons .proj-button p {
     font-size: 1.2vw;
 }
+
 .projects .buttons .proj-button h4 {
     font-size: 1.3vw;
     transition-duration: 0.3s;
 }
+
 .projects .buttons .proj-button:hover h4 {
     text-decoration: underline;
-}
-.projects {
-    width: fit-content;
-    margin: 0 auto;
 }
 .projects .buttons {
     display: flex;
     justify-content: center;
     gap: 5vw;
 }
+.more-about-me {
+    width: fit-content;
+    margin: 2vw auto;
+
+}
+
+.more-about-me .buttons .about-box {
+    background-color: #ffffff;
+    width: 16vw;
+    text-align: center;
+    padding: 0.4vw;
+    box-shadow: 0.5vw 0.5vw #ecaf29;
+    border-radius: 1vw;
+    transition-duration: 0.3s;
+}
+.more-about-me .buttons .about-box:hover {
+    transform: translate(-0.5vw, 0);
+    box-shadow: 1.5vw 0.5vw #ecaf29;
+}
+.more-about-me h2 {
+    margin: 0 auto;
+    font-size: 2.5vw;
+    text-align: center;
+    color: #ffffff;
+    margin: 1vw;
+    text-shadow: 0.3vw 0.3vw #000000;
+
+}
+.more-about-me .buttons .about-box p {
+    font-size: 1.2vw;
+}
+.more-about-me .buttons .about-box h4 {
+    font-size: 1.3vw;
+}
+.more-about-me .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+}
+
 .fork-button {
     margin: 0;
     width: 10vw;
     height: 10vw;
     transition-duration: 0.3s;
 }
+
 .fork-button:hover {
     width: 12vw;
     height: 12vw;
 }
+
 .fork-button-link {
     padding: 0;
     position: absolute;
